@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: black;
+}
+.hum{
+    position: relative;
+    right: -8%;
+    margin-top: 18px;
+    margin-right: 15px;
+    display:  none;
+    
+}
+
+.Navbar{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.left{
+    margin: 15px;
+    height: auto;
+    width: 55vw;
+}
+.right{
+    display: flex;
+    align-items: center;    
+    transition: 0.3s ease-in-out;
+}
+
+.right ul{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    width: 45vw;
+    list-style: none;
+   
+}
+.right ul a{
+    display:inline-block;
+    width: 5vw;
+    color: white;
+    text-decoration: none;
+}
+.right ul a:hover{
+    font-size: 1.1rem;
+    color: antiquewhite;
+}
+
+        /* Reponsive */
+
+@media screen and (max-width: 900px
+){  .Navbar{
+        flex-direction: column;
+        width: 95vw;
+        height: auto;
+        opacity: 0.9;
+        
+    }
+    .right{
+        display: block;
+        position: relative;
+        left: -100%;
+        height: 1vh;
+
+    }
+    .right.active{
+        display: flex;
+        height: 20vh;
+        left: 0;
+    }
+  
+    .right ul{
+        width: 100%;
+        flex-direction: column-reverse;
+        height: 20vh;
+    }
+    .right ul a{
+        margin: 5px 0px;
+        height: 20px;
+
+    }
+    .hum{
+        display:block;
+        right: 0;
+    }
+    
+    .hum i{
+       color: white;
+       font-size: 1.5rem;
+    
+    }
+   
+
+    
+}
