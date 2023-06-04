@@ -34,7 +34,7 @@ const Navbar = () => {
             </div>
         </div>
             <div className="hum">
-            <i className="fa-solid fa-bars"onClick={click} ></i>
+            <i className= {model?'fa-solid fa-close':'fa-solid fa-bars'}onClick={click} ></i>
             </div>
         </nav>
       
