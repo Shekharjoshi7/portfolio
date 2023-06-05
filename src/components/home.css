@@ -1,0 +1,53 @@
+#Home{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    height: 95vh;
+    background-color: #081b29;
+    
+}
+.info{
+    
+    text-align: center;
+    width: 50vw;
+    height: 70vh;
+  
+    
+}
+.Profile{
+    margin: 10px;
+    width: 30vw;
+    height: 50vh;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.profile-photo{
+    height: 40vh;
+    width: 20vw;
+}
+.profile-photo img{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 100%;
+}
+
+@media screen and (max-width : 900px) {
+    #Home{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .profile-photo{
+        height: 30vh;
+        width: 60vw;
+        margin-bottom:80%;
+    }
+    .profile-photo img{
+     height: 30vh;
+     width: 60vw;
+    }
+    
+}

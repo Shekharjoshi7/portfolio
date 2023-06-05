@@ -1,22 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
+.NavbarContainer{
+    position: sticky;
+    top: 0;
+
 }
 nav{
     display: flex;
     background-color: black;
+    z-index: 1;
 }
 .hum{
     position: relative;
     right: -8%;
+    margin-left: 0;
     margin-top: 18px;
     margin-right: 15px;
-    display:  none;
+    display:none;
     
 }
 
 .Navbar{
-    width: 100vw;
     height: 8vh;
     display: flex;
     justify-content: space-between;
@@ -37,18 +39,18 @@ nav{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-around;
-    width: 45vw;
+    justify-content: space-between;
+    width: 40vw;
     list-style: none;
    
 }
-.right ul a{
+.right ul li a{
     display:inline-block;
     width: 5vw;
     color: white;
     text-decoration: none;
 }
-.right ul a:hover{
+.right ul li a:hover{
     font-size: 1.1rem;
     color: antiquewhite;
 }
