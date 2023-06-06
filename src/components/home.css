@@ -15,13 +15,11 @@
     color: white;
     width: 50vw;
     height: 70vh;
-  
     
 }
-.m5{
-    margin: 5px
-  
-    
+.info h1{
+    margin: 15px 0px;
+    text-align: center;
 }
 .info div a i{
     color: white;
@@ -49,6 +47,33 @@
 .profile-photo h1{
     text-align: center;
 }
+.btn{
+    width: 8vw;
+    height: 4vh;
+    border: #081b29;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.btn-p{
+    background-color: #00abf0;
+    color: white;
+
+}
+.btn-p:hover{
+    background-color: transparent;
+    border: 2px solid #00abf0;
+
+}
+.btn-s{
+    background-color: transparent;
+    border: 2px solid #00abf0;
+    color: white;;
+
+}
+.btn-s:hover{
+    background-color: #00abf0;
+
+}
 
 @media screen and (max-width : 900px) {
     #Home{
@@ -67,3 +92,7 @@
     }
     
 }
+/* Utility */
+ .m5{
+        margin: 5px
+    }

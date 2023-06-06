@@ -1,8 +1,9 @@
-import React from 'react'
+import React  from 'react'
 import './home.css'
 
-
 function Home() {
+  const profile = 'img/img2.JPG';
+  const ShekharResume ='resume/ShekharResume.pdf';
   return (
     <>
     <div id='Home'>
@@ -19,14 +20,17 @@ function Home() {
         </a>
         </div>
         <div className="BtnBox m5">
-          
-          <button className='m5'>GET RESUME</button>
-          <button className='m5'>CONTACT</button>
+          <a href= {ShekharResume}download='ShekharResume.pdf'> 
+          <button className='m5 btn btn-p'>GET RESUME</button>
+          </a>
+         <a href="#About">
+           <button className='m5 btn btn-s'>CONTACT</button>
+          </a>
         </div>
       </div>
       <div className="Profile">
         <div className="profile-photo">
-          <img src={require('../img2.JPG')} alt="" />
+          <img src={profile} alt="" />
           <h1>Shekhar Joshi</h1>
         </div>
       </div>
