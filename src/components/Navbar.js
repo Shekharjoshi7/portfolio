@@ -3,6 +3,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     const[model, setModel] = useState();
+    const[Nav, setNav] = useState('#');
     const click= ()=>{setModel(!model) }
 
     
@@ -15,19 +16,19 @@ const Navbar = () => {
              <div className="left">
                 <h1>Portfilo</h1>
             </div>
-            <div className={model?'right active':'right'}>
+            <div className={model?'right display':'right'}>
                 <ul>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href='#Conatact' onClick={()=>setNav('#Contact')} className={Nav === '#Contact'?'active':''}>Contact</a>
                     </li>
                     <li>
-                        <a href="#">Skills</a>
+                        <a href='#Skills' onClick={()=>setNav('#Skills')} className={Nav === '#Skills'?'active':''}>Skills</a>
                     </li>
                     <li>
-                        <a href="#About">About</a>
+                        <a href='#About' onClick={()=>setNav('#About')} className={Nav === '#About'?'active':''}>About</a>
                     </li>
                     <li>
-                        <a href="#">Home</a>
+                        <a href='#'  onClick={()=>setNav('#')} className={Nav === '#'?'active':''}>Home</a>
                     </li>
                 </ul>
                 

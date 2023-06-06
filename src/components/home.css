@@ -7,12 +7,24 @@
     
 }
 .info{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
+    color: white;
     width: 50vw;
     height: 70vh;
   
     
+}
+.m5{
+    margin: 5px
+  
+    
+}
+.info div a i{
+    color: white;
 }
 .Profile{
     margin: 10px;
@@ -27,11 +39,15 @@
 .profile-photo{
     height: 40vh;
     width: 20vw;
+    color: white;
 }
 .profile-photo img{
     width: 20vw;
     height: 40vh;
     border-radius: 100%;
+}
+.profile-photo h1{
+    text-align: center;
 }
 
 @media screen and (max-width : 900px) {
