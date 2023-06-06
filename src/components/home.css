@@ -26,6 +26,7 @@
 }
 .Profile{
     margin: 10px;
+    margin-top: 50px;
     width: 30vw;
     height: 50vh;
     /* background-color: #fff; */
@@ -45,7 +46,12 @@
     border-radius: 100%;
 }
 .profile-photo h1{
+    margin-top: 15px;
     text-align: center;
+}
+.BtnBox{
+
+    width: 100%;
 }
 .btn{
     width: 8vw;
@@ -81,14 +87,27 @@
         justify-content: center;
         flex-direction: column;
     }
+    .Profile{
+        margin-top: 5px;
+    }
     .profile-photo{
         height: 30vh;
         width: 60vw;
         margin-bottom:80%;
     }
+    .profile-photo h1{
+       
+        font-size: 1.5rem;
+    }
     .profile-photo img{
      height: 30vh;
      width: 60vw;
+    }
+    .btn{
+        width: 25vw;
+        height: 4vh;
+        border-radius: 10%;
+        cursor: pointer;
     }
     
 }

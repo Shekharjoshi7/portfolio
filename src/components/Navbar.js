@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className={model?'right display':'right'}>
                 <ul>
                     <li>
-                        <a href='#Conatact' onClick={()=>setNav('#Contact')} className={Nav === '#Contact'?'active':''}>Contact</a>
+                        <a href='#Contact' onClick={()=>setNav('#Contact')} className={Nav === '#Contact'?'active':''}>Contact</a>
                     </li>
                     <li>
                         <a href='#Skills' onClick={()=>setNav('#Skills')} className={Nav === '#Skills'?'active':''}>Skills</a>
