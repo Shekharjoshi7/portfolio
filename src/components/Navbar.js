@@ -22,6 +22,9 @@ const Navbar = () => {
                         <a href='#Contact' onClick={()=>setNav('#Contact')} className={Nav === '#Contact'?'active':''}>Contact</a>
                     </li>
                     <li>
+                        <a href='#Project' onClick={()=>setNav('#Project')} className={Nav === '#Project'?'active':''}>Project</a>
+                    </li>
+                    <li>
                         <a href='#Skills' onClick={()=>setNav('#Skills')} className={Nav === '#Skills'?'active':''}>Skills</a>
                     </li>
                     <li>

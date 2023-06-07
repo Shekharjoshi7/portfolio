@@ -6,8 +6,8 @@
 }
 nav{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.9);
-    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    
     
 }
 .hum{
@@ -79,7 +79,7 @@ nav{
     }
     .right.display{
         display: flex;
-        height: 20vh;
+        height: 24vh;
         left: 0;
         /* visibility: inherit; */
     }
@@ -87,7 +87,7 @@ nav{
     .right ul{
         width: 100%;
         flex-direction: column-reverse;
-        height: 20vh;
+        height: 24vh;
         
     }
     .right ul a{
