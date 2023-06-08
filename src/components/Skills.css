@@ -1,7 +1,7 @@
 #Skills{
     text-align: center;
-    padding: 60px;
-    height: 100vh;
+    padding: 60px 0px;
+    height: 85vh;
     background-color: #081b29;
     color: white;
 
@@ -44,6 +44,12 @@ progress::-webkit-progress-value {
 
 @media screen and (max-width: 900px
 ){
+    #Skills{
+        
+        height: 100vh;
+
+        
+    }
     .items{
         grid-template-columns: 90vw;
         grid-template-rows: 15vh 15vh 15vh 15vh 15vh auto;

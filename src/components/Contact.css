@@ -1,4 +1,35 @@
 #Contact{
-    background-color: #112e42;
-    height: 100vh;
+    background-color: #081b29;
+    height: 75vh;
+    padding: 55px;
+    color: white;
+}
+.ContactBox{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ContactBox h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.form{
+    height: 3vh;
+    width: 60vw;
+    margin: 2%;  
+    padding: 15px;
+    border: 2px solid #112e42;
+    border-radius: 50px;
+    box-shadow: 0px 0px 18px#00abf0;
+}
+.ContactBox textarea{
+    height: 20vh;
+}
+.buttons{
+    width: 60vw;
+}
+#submit{
+    margin: 15px;
 }
