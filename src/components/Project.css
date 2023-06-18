@@ -28,9 +28,35 @@
 }
 .cards img{
     height: 20vh;
+    border-radius: 30px;
+}
+.cards h2{
+  text-align: center; 
 }
 .CardBtn{
-    margin: 45px 16px;
-
-    display: flex;
+    margin: 15px ;
+   display: flex;
+}
+@media screen and (max-width: 900px
+){
+    #Project{
+        height: auto;
+        padding: 10px;
+    }
+    .CardBox{
+        display: grid;
+        grid-template-columns: 80vw;
+        grid-template-rows: 40vh 40vh 40vh;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .cards{
+        width: 80vw;
+        height: 30vh;
+        
+    }
+    .CardBtn{
+       margin: 10px 40px;
+       display: flex;
+    }
 }
