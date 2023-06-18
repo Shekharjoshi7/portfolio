@@ -6,7 +6,7 @@ function Home() {
   const ShekharResume ='resume/ShekharResume.pdf';
   return (
     <>
-    <div id='Home'>
+    <section id='Home'>
 
       <div className="info">
         <p className='m5'>HI, I'M A FREELANCER</p>
@@ -37,7 +37,7 @@ function Home() {
         </div>
       </div>
 
-    </div>
+    </section>
     </>
   )
 }

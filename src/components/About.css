@@ -28,7 +28,7 @@
 .certificate img{
     margin-left: 20px;
     width: 30vw;
-    /* height: 15vh; */
+    
 }
 @media screen and (max-width : 900px) {
     #About{

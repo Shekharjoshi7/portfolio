@@ -5,9 +5,8 @@ const Navbar = () => {
     const[model, setModel] = useState();
     const[Nav, setNav] = useState('#');
     const click= ()=>{setModel(!model) }
-
     
-   
+
   return (
     <div className='NavbarContainer'>
         <nav>
@@ -19,6 +18,7 @@ const Navbar = () => {
             <div className={model?'right display':'right'}>
                 <ul>
                     <li>
+                        
                         <a href='#Contact' onClick={()=>setNav('#Contact')} className={Nav === '#Contact'?'active':''}>Contact</a>
                     </li>
                     <li>

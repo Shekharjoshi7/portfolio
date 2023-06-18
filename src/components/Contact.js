@@ -3,7 +3,7 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div id='Contact'>
+    <section id='Contact'>
       <div className="ContactBox">
         <h1>Contact</h1>
         <input type="Name" className='form' placeholder='Full Name'/>
@@ -14,7 +14,7 @@ const Contact = () => {
           <button  id='clear'className="btn btn-s">Clear</button>
           </div>     
       </div>
-    </div>
+    </section>
   )
 }
 
