@@ -2,7 +2,7 @@ import React  from 'react'
 import './home.css'
 
 function Home() {
-  const profile = 'img/img2.JPG';
+  const profile = 'https://github.com/Shekharjoshi7/portfolio/blob/master/public/img/img2.JPG?raw=true';
   const ShekharResume ='resume/ShekharResume.pdf';
   return (
     <>
