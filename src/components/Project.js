@@ -5,17 +5,17 @@ const Project = () => {
   const Data= [
     {
      title:'Weather',
-     src :"img/Weather.JPG",
+     src :"./IMG/WEATHER.JPG",
      Live: 'https://shekharjoshi7.github.io/Weather-App/',
      Code:'https://github.com/Shekharjoshi7/Weather-App'},
     {
      title:'Our Playlist',
-     src :"img/Our-Playlist.JPG",
+     src :"./IMG/PLAYLIST.JPG",
      Live: 'https://shekharjoshi7.github.io/Our-Playlist/',
      Code:'https://github.com/Shekharjoshi7/Our-Playlist'},
     {
      title:'Tic Tac Toe',
-     src :"img/tic-tac-toe.JPG",
+     src :"./IMG/TIC.JPG",
      Live: 'https://shekharjoshi7.github.io/tic-tac-toe/',
      Code:'https://github.com/Shekharjoshi7/tic-tac-toe'},
     
