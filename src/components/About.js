@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 
 const About = () => {
-  const  Certificate  = 'https://github.com/Shekharjoshi7/portfolio/blob/master/public/img/Certificate.jpg'
+  const  Certificate  = 'img/Certificate.JPG'
   return (
     
     <section id='About'>
