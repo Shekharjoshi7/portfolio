@@ -5,17 +5,20 @@ const Project = () => {
   const Data= [
     {
      title:'Weather',
-     src :"IMG/Weather.JPG",
+     key: 1,
+     src :"Images/Weather.jpg",
      Live: 'https://shekharjoshi7.github.io/Weather-App/',
      Code:'https://github.com/Shekharjoshi7/Weather-App'},
     {
      title:'Our Playlist',
-     src :"IMG/Our-Playlist.JPG",
+     key: 2,
+     src :"Images/Our-Playlist.jpg",
      Live: 'https://shekharjoshi7.github.io/Our-Playlist/',
      Code:'https://github.com/Shekharjoshi7/Our-Playlist'},
     {
      title:'Tic Tac Toe',
-     src :"IMG/tic-tac-toe.JPG",
+     key: 3,
+     src :"Images/tic-tac-toe.jpg",
      Live: 'https://shekharjoshi7.github.io/tic-tac-toe/',
      Code:'https://github.com/Shekharjoshi7/tic-tac-toe'},
     
@@ -27,10 +30,10 @@ const Project = () => {
       <div className="CardBox">
 
         {Data.map((element,index)=>{
-        const {title,Live,Code,src} = element
+        const {title,Live,Code,src,key} = element
  // eslint-disable-next-line 
           return(
-          <div className="cards">
+          <div key={key} className="cards">
           <img src={src} alt="" />
           <h2 className='m5'>{title}</h2>
           <div className="CardBtn">
