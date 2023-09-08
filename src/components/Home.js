@@ -2,7 +2,7 @@ import React  from 'react'
 import './home.css'
 
 function Home() {
-  const profile ='Images/Profile.jpg'
+  const profile = 'img/img2.JPG';
   const ShekharResume ='resume/ShekharResume.pdf';
   return (
     <>
