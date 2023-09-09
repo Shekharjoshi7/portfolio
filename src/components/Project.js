@@ -4,16 +4,19 @@ import './Project.css'
 const Project = () => {
   const Data= [
     {
+     key: '1',
      title:'Weather',
      src :"./IMG/WEATHER.JPG",
      Live: 'https://shekharjoshi7.github.io/Weather-App/',
      Code:'https://github.com/Shekharjoshi7/Weather-App'},
     {
+     key: '2',
      title:'Our Playlist',
      src :"./IMG/PLAYLIST.JPG",
      Live: 'https://shekharjoshi7.github.io/Our-Playlist/',
      Code:'https://github.com/Shekharjoshi7/Our-Playlist'},
     {
+     key: '3',
      title:'Tic Tac Toe',
      src :"./IMG/TIC.JPG",
      Live: 'https://shekharjoshi7.github.io/tic-tac-toe/',
@@ -27,10 +30,10 @@ const Project = () => {
       <div className="CardBox">
 
         {Data.map((element,index)=>{
-        const {title,Live,Code,src} = element
+        const {title,Live,Code,src,key} = element
  // eslint-disable-next-line 
           return(
-          <div className="cards">
+          <div key={key} className="cards">
           <img src={src} alt="" />
           <h2 className='m5'>{title}</h2>
           <div className="CardBtn">

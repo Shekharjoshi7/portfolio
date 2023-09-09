@@ -4,7 +4,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <div id='footer'>
-      footer
+      <p>All Rights Are Reserve</p>
     </div>
   )
 }
