@@ -5,7 +5,6 @@ const Contact = () => {
   return (
     <section id='Contact'>
       <form action="https://formspree.io/f/xknlbaad" className="ContactBox" method="post">
-      
         <h1>Contact</h1>
         <input type="Name" className='form' placeholder='Full Name'/>
         <input type="Email" className='form' placeholder='Email'/>
