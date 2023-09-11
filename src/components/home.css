@@ -17,10 +17,13 @@
     height: 70vh;
     
 }
+
 .info h1{
+    height: 5vh;
     margin: 15px 0px;
     text-align: center;
 }
+
 .info div a i{
     margin: 15px;
     color: white;
@@ -64,6 +67,7 @@
     box-shadow: 0px 0px 20px#00abf0;
     border-radius: 10%;
     cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
 }
 .btn-p{
     background-color: #00abf0;
@@ -91,6 +95,14 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    .info p{
+    width: 100vw;
+    }
+    .info h1{
+        height: 6vh;
+        width: 100vw;
+
     }
     .Profile{
         margin-top: 5px;
