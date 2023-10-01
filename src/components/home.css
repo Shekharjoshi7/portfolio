@@ -4,6 +4,7 @@
     align-items: top;
     height: 95vh;
     background-color: #081b29;
+    padding: 25px;
     
 }
 .info{
@@ -23,6 +24,10 @@
     margin: 15px 0px;
     text-align: center;
 }
+.info p{
+
+    color: #00abf0;
+}
 
 .info div a i{
     margin: 15px;
@@ -41,16 +46,19 @@
     
 }
 .profile-photo{
-    height: 40vh;
-    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
     color: white;
+    width: 25vw;
+    height: 50vh;
 }
 .profile-photo img{
-    width: 20vw;
-    height: 40vh;
-    border: 2px solid #00abf0;
     box-shadow: 0px 0px 25px#00abf0;
-    border-radius: 100%;
+    border-radius: 15%;
+    width: 70%;
 }
 .profile-photo h1{
     margin-top: 15px;
@@ -60,15 +68,7 @@
 .BtnBox{
     width: 100%;
 }
-.btn{
-    width: 8vw;
-    height: 4vh;
-    border: #081b29;
-    box-shadow: 0px 0px 20px#00abf0;
-    border-radius: 10%;
-    cursor: pointer;
-    font-family: 'Ubuntu', sans-serif;
-}
+
 .btn-p{
     background-color: #00abf0;
     color: white;
@@ -90,8 +90,9 @@
 
 }
 
-@media screen and (max-width : 900px) {
+@media screen and (max-width : 915px) {
     #Home{
+        height: auto;
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -105,30 +106,29 @@
 
     }
     .Profile{
-        margin-top: 5px;
+        margin-top: 25px;
+        width: 100%;
+        height: 100%;
     }
     .profile-photo{
-        height: 30vh;
-        width: 60vw;
-        margin-bottom:80%;
+        height: 100%;
+        width: 100%;
+    }
+    .profile-photo img{
+        height: 35vh;
+        width: auto;
+        
     }
     .profile-photo h1{
        
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
-    .profile-photo img{
-     height: 30vh;
-     width: 60vw;
-    }
+    
     .btn{
-        width: 25vw;
-        height: 4vh;
+        width: 30vw;
+        height: 5vh;
         border-radius: 10%;
         cursor: pointer;
     }
     
 }
-/* Utility */
- .m5{
-        margin: 5px
-    }

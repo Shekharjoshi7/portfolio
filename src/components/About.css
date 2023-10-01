@@ -30,7 +30,7 @@
     width: 30vw;
     
 }
-@media screen and (max-width : 900px) {
+@media screen and (max-width : 915px) {
     #About{
         background-color: #112e42;
         color: white;

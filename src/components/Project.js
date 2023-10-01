@@ -31,7 +31,7 @@ const Project = () => {
 
         {Data.map((element,index)=>{
         const {title,Live,Code,src,key} = element
- // eslint-disable-next-line 
+ 
           return(
           <div key={key} className="cards">
           <img src={src} alt="" />

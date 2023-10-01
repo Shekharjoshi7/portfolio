@@ -60,7 +60,7 @@ nav{
 
         /* Reponsive */
 
-@media screen and (max-width: 900px
+@media screen and (max-width: 915px
 ){  .Navbar{
         flex-direction: column;
         width: 95vw;
