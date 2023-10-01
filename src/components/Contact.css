@@ -1,11 +1,11 @@
 #Contact{
     background-color: #081b29;
-    height: 75vh;
-    padding: 55px;
+    height: auto;
+    padding: 55px 0px;
     color: white;
 }
 .ContactBox{
-    
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,8 +28,18 @@
     height: 20vh;
 }
 .buttons{
-    width: 60vw;
+    width: 64%;   
 }
 #submit{
     margin: 15px;
+}
+@media screen and (max-width: 915px
+){
+    
+    .form{
+        width: 85vw;
+    }
+    .buttons{
+        width: 95%;   
+    }
 }
