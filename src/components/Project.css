@@ -18,7 +18,7 @@
 .cards{
     margin: auto;
     width: 20vw;
-    height: 30vh;
+    height: 35vh;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -54,8 +54,6 @@
     }
     .cards{
         width: 80vw;
-        height: 30vh;
-        
     }
     .CardBtn{
        margin: 10px auto;
