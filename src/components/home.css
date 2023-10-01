@@ -25,7 +25,6 @@
     text-align: center;
 }
 .info p{
-
     color: #00abf0;
 }
 
@@ -97,8 +96,11 @@
         justify-content: center;
         flex-direction: column;
     }
+    .info{
+        width: 100vw;
+    }
     .info p{
-    width: 100vw;
+        width: 90vw;
     }
     .info h1{
         height: 6vh;
