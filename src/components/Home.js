@@ -32,7 +32,7 @@ function Home() {
       <div className="info">
         <p className='m5'>HI, I'M A FREELANCER</p>
         <h1 className='m5 ' ref={el}>React Developer</h1>
-        <p className='m5'>Welcome to my React portfolio! I'm Shekhar Joshi, a passionate React developer with a strong foundation in building dynamic and responsive web applications.</p>
+        <p className='m5 para'>Welcome to my React portfolio! I'm Shekhar Joshi, a passionate React developer with a strong foundation in building dynamic and responsive web applications.</p>
         <div className="icon">
         <a className='m5' href="https://www.instagram.com/shekhar__joshi/" target='_blank'>
         <i className='fa-brands fa-instagram m5'></i>

@@ -27,6 +27,9 @@
 .info p{
     color: #00abf0;
 }
+.para{
+    font-size: 0.8rem;
+}
 
 .info div a i{
     margin: 15px;
