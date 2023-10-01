@@ -35,7 +35,7 @@ const Project = () => {
           return(
           <div key={key} className="cards">
           <img src={src} alt="" />
-          <h2 className='m5'>{title}</h2>
+          <h3 className='m5'>{title}</h3>
           <div className="CardBtn">
          
             <a className='m5' href= {Live} target='_blank'>
