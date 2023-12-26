@@ -6,6 +6,7 @@
 }
 #About h1{
     text-align: center;
+    margin-top: 20px;
 }
 .Box{
     margin: 30px;
@@ -36,6 +37,9 @@
         color: white;
         padding:60px  0px;
         height: auto;
+    }
+    #About h1{
+        margin: 0;
     }
     .Box{
         margin:15px;

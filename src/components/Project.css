@@ -7,12 +7,13 @@
 }
 #Project h1{
     text-align: center;
+    margin: 20px 0;
 }
 .CardBox{
     display: grid;
     grid-template-columns: 30vw 30vw 30vw;
     grid-template-rows: 45vh 45vh;
-    margin-top: 10px;
+    margin-top: 30px;
     width: 100%;
 }
 .cards{
@@ -43,6 +44,7 @@
         height: auto;
         padding: 10px;
     }
+    
     .CardBox{
         display: grid;
         grid-template-columns: 100vw;
