@@ -5,7 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'
 
 function Home() {
-  const profile = './IMG/PROFILE.JPG';
+  const profile = './IMG/PROFILE.PNG';
   const ShekharResume ='resume/ShekharResume.pdf';
   useEffect(() => {
     AOS.init({
