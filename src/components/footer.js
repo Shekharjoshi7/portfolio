@@ -3,7 +3,7 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div id='footer' data-aos="fade-up">
+    <div id='footer'>
       <div className="FBox" >
         <div className='SBox' data-aos="fade-right">
           <div className="Fitem">

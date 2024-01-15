@@ -38,9 +38,9 @@ function Home() {
     <section id='Home'>
 
       <div className="info" >
-        <h3 className='m5' data-aos="fade-up">HI, I'M A FREELANCER</h3>
+        <h3 className='m5' data-aos="fade-up">HI, I'M <span className='name'>SHEKHAR JOSHI</span></h3>
         <h1 className='m5 ' data-aos="fade-up" ref={el}>React Developer</h1>
-        <p className='m5 para' data-aos="fade-up">Welcome to my React portfolio! I'm Shekhar Joshi, a passionate React developer with a strong foundation in building dynamic and responsive web applications.</p>
+        <p className='m5 para' data-aos="fade-up">Welcome to my portfolio! I'm a freelancer ,a passionate React developer with a strong foundation in building dynamic and responsive web applications.</p>
         <div className="icon"  data-aos="fade-up">
         <a className='m5' href="https://www.linkedin.com/in/shekhar-joshi-51a27728b/" target='_blank'>
         <i className='fa-brands fa-linkedin m5'></i>
