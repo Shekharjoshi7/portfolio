@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="Top"  data-aos="fade-up">
+        <div className="Top">
           <a href="#Home">
             <i className="fa-solid fa-arrow-up"></i>
           </a>

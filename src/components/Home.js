@@ -60,7 +60,7 @@ function Home() {
       </div>
 
 
-      <div className="Profile" data-aos="fade-right">
+      <div className="Profile" data-aos="fade-left">
         <div className="profile-photo">
           <img src={profile} alt="" />
         </div>
