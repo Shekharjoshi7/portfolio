@@ -3,9 +3,9 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div id='footer'>
-      <div className="FBox">
-        <div className='SBox'>
+    <div id='footer' data-aos="fade-up">
+      <div className="FBox" >
+        <div className='SBox' data-aos="fade-right">
           <div className="Fitem">
             <h3>Get In Touch</h3>
             <div className="Links">
@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="Top">
+        <div className="Top"  data-aos="fade-up">
           <a href="#Home">
             <i className="fa-solid fa-arrow-up"></i>
           </a>

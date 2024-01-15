@@ -99,7 +99,7 @@
         height: auto;
         align-items: center;
         justify-content: center;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .info{
         width: 100vw;
@@ -116,14 +116,14 @@
     }
     .Profile{
         width: 100%;
-        height: 30vh;
+        height: 35vh;
     }
     .profile-photo{
         height: 100%;
         width: 100%;
     }
     .profile-photo img{
-        height: 50vh;
+        height: 45vh;
         width: auto;
         
     }
