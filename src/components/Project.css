@@ -1,7 +1,7 @@
 #Project{
-    background-color: #112e42;
+    background-color:  rgb(8, 27, 41,0.2);
     height: auto;
-    padding: 0px 55px;
+    padding: 25px 55px;
     padding-top: 55px;
     color: white;
 }
@@ -13,25 +13,37 @@
     display: grid;
     grid-template-columns: 30vw 30vw 30vw;
     grid-template-rows: 45vh 45vh;
+    gap: 2rem;
     margin-top: 30px;
     width: 100%;
 }
 .cards{
     margin: auto;
     width: 20vw;
-    height: 35vh;
-    padding: 20px;
+    height: 45vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     border: 2px solid #112e42;
     border-radius: 50px;
     box-shadow: 0px 0px 18px#00abf0;
 }
-.cards img{
-    height: 20vh;
+.ImgBox{
+    border-radius: 50px;
+    overflow: hidden;
+    height: 28vh;
+    width: 100%;
+}
+.cards .ImgBox img{
+    height: 28vh;
     border-radius: 30px;
+    transition: 0.3s ease;
+}
+.cards img:hover{
+    transform: scale(1.1);
 }
 .cards h3{
+    margin-top: 15px;
   text-align: center; 
 }
 .CardBtn{
@@ -42,7 +54,10 @@
 ){
     #Project{
         height: auto;
-        padding: 10px;
+        padding: 30px 10px;
+    }
+    #Project h1{
+        margin-top: 40px;
     }
     
     .CardBox{

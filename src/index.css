@@ -1,12 +1,13 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Lato', sans-serif;
 
 }
 /* Utility */

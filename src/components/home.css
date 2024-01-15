@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: top;
     height: 95vh;
-    background-color: #081b29;
+    background-color:  rgb(8, 27, 41,0.1);
     padding: 25px;
     
 }
@@ -24,8 +24,13 @@
     margin: 15px 0px;
     text-align: center;
 }
+.info h3{
+    color: #00abf0;
+    font-size: 1.2rem;
+}
 .info p{
     color: #00abf0;
+    font-size: 1.2rem;
 }
 .para{
     font-size: 0.8rem;
@@ -62,11 +67,7 @@
     border-radius: 15%;
     width: 70%;
 }
-.profile-photo h1{
-    margin-top: 15px;
-    text-align: center;
-    
-}
+
 .BtnBox{
     width: 100%;
 }
@@ -104,6 +105,7 @@
     }
     .info p{
         width: 90vw;
+        text-align: justify;
     }
     .info h1{
         height: 6vh;
@@ -123,10 +125,6 @@
         height: 35vh;
         width: auto;
         
-    }
-    .profile-photo h1{
-       
-        font-size: 1.3rem;
     }
     
     .btn{

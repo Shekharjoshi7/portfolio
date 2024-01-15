@@ -1,14 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import './Navbar.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 const Navbar = () => {
     const[model, setModel] = useState();
     const[Nav, setNav] = useState('#');
     const click= ()=>{setModel(!model) }
+    useEffect(() => {
+        AOS.init({
+        duration: "500",
+        delay: "500"
+    });
+      }, []);
     
 
   return (
-    <div className='NavbarContainer'>
+    <div data-aos="fade-down" data-aos-once="true" className='NavbarContainer'>
         <nav>
 
         <div className='Navbar'>

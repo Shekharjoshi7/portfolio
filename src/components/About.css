@@ -1,5 +1,5 @@
 #About{
-    background-color: #112e42;
+    background-color:  rgb(8, 27, 41,0.2);
     color: white;
     padding: 56px;
     height: auto;
@@ -23,6 +23,10 @@
     margin: 15px;
     width: 60vw;
 }
+.content p{
+   font-size: 1.2rem;
+   text-align: justify;
+}
 .certificate{
     width: 40vw;
 }
@@ -33,17 +37,12 @@
 }
 @media screen and (max-width : 915px) {
     #About{
-        background-color: #112e42;
-        color: white;
         padding:60px  0px;
         height: auto;
     }
-    #About h1{
-        margin: 0;
-    }
+   
     .Box{
         margin:15px;
-        /* margin-left: 15px; */
         padding: 0px;
         flex-direction: column;
         width: 90vw;
@@ -54,7 +53,8 @@
         width: 80vw;
     }
     .content p{
-        font-size: 0.8rem;
+        font-size: 1rem;
+       
     }
     .certificate{
         width: 80vw;

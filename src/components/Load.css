@@ -1,0 +1,88 @@
+.loader{
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.loader h1{
+    color: #00abf0;
+}
+.React{
+    position: relative;
+    width: 20vw;
+    border: 2px solid#00abf0;
+    border-radius: 50%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 50px#00abf0;
+    animation: rotate 3s linear 0.5s infinite;
+}
+.position{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    animation: position 2s ease-in-out 2s;
+    animation-iteration-count: 1;  
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+        
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+    
+}
+@keyframes position {
+    100%{
+        top: 0%;
+        left: 0%; 
+    }
+    
+}
+.React::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 2px solid#00abf0;
+    box-shadow: 0px 0px 60px#00abf0;
+    border-radius: 50%;
+    height: 100%;
+    transform: rotate(60deg);
+}
+.React::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 2px solid #00abf0;
+    box-shadow: 0px 0px 60px#00abf0;
+    border-radius: 50%;
+    height: 100%;
+    transform: rotate(-60deg);
+}
+@media screen and (max-width: 915px
+){
+    .React{
+        transform: rotate(90deg);
+        height: 30vh;
+    }
+    @keyframes rotate {
+        0%{
+            transform: rotate(90deg);
+            
+        }
+        100%{
+            transform:rotate(360deg);
+        }
+        
+    }
+   
+}

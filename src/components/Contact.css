@@ -1,5 +1,5 @@
 #Contact{
-    background-color: #081b29;
+    background-color:  rgb(8, 27, 41,0.1);
     height: auto;
     padding: 55px 0px;
     color: white;
@@ -17,8 +17,8 @@
     text-align: center;
 }
 .form{
-    height: 3vh;
-    width: 60vw;
+    height: 7vh;
+    width: 63vw;
     margin: 2%;  
     padding: 15px;
     border: 2px solid #112e42;

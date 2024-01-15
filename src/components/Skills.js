@@ -13,36 +13,6 @@ const Skills = () => {
   }, []);
   const animation = true;
 
-  // const[animation,setanimation]= useState(false)
-  // const PBox = document.querySelectorAll('.PBox');
-  // useEffect(() => {
-  //   window.addEventListener('scroll', () => {
-  //     for (let index = 0; index < PBox.length; index++) {
-  //       const element = PBox[index];
-        
-  //       let scrollPosition = window.scrollY;
-  //       let offset = element.offsetTop - 400;
-  //       let height = element.offsetHeight;
-        
-  //       console.log(scrollPosition)
-  //       console.log(offset)
-  //       console.log(height)
-
-  //       if (scrollPosition >= offset && scrollPosition < (offset + height)) {
-  //         setanimation(true)
-  //       } else {
-  //         setanimation(false)
-  //       }
-        
-  //     }
-  //   });
-  // },true);
-
-
-
-
-
-
   return (
     <section id='Skills'>
       <h1 data-aos="fade-down">Skills</h1>

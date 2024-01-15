@@ -25,7 +25,8 @@ const Project = () => {
       src: "./IMG/TIC.JPG",
       Live: 'https://shekharjoshi7.github.io/tic-tac-toe/',
       Code: 'https://github.com/Shekharjoshi7/tic-tac-toe'
-    },
+    }
+   
 
   ];
   useEffect(() => {
@@ -40,12 +41,15 @@ const Project = () => {
       <h1 data-aos="fade-down">Projects</h1>
       <div className="CardBox">
 
-        {Data.map((element, index) => {
+        
+        {Data.map((element) => {
           const { title, Live, Code, src, key } = element
 
           return (
             <div  data-aos="fade-right" key={key} className="cards">
-              <img src={src} alt="" />
+              <div className="ImgBox">
+              <img src={src} alt="website Image" />
+              </div>
               <h3 className='m5'>{title}</h3>
               <div className="CardBtn">
 

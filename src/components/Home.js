@@ -8,7 +8,10 @@ function Home() {
   const profile = './IMG/PROFILE.JPG';
   const ShekharResume ='resume/ShekharResume.pdf';
   useEffect(() => {
-    AOS.init({duration:"1000"});
+    AOS.init({
+    duration: "500",
+    delay: "500"
+  });
   }, []);
 
   const el = React.useRef(null);
@@ -35,7 +38,7 @@ function Home() {
     <section id='Home'>
 
       <div className="info" >
-        <p className='m5' data-aos="fade-up">HI, I'M A FREELANCER</p>
+        <h3 className='m5' data-aos="fade-up">HI, I'M A FREELANCER</h3>
         <h1 className='m5 ' data-aos="fade-up" ref={el}>React Developer</h1>
         <p className='m5 para' data-aos="fade-up">Welcome to my React portfolio! I'm Shekhar Joshi, a passionate React developer with a strong foundation in building dynamic and responsive web applications.</p>
         <div className="icon"  data-aos="fade-up">
@@ -60,7 +63,6 @@ function Home() {
       <div className="Profile">
         <div className="profile-photo">
           <img src={profile} alt="" />
-          <h1  data-aos="fade-up" data-aos-duration="500">Shekhar Joshi</h1>
         </div>
       </div>
 

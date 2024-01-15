@@ -1,0 +1,107 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    position: fixed;
+    z-index: -1;
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.bounce{
+    animation: bounce 6s linear 0s infinite alternate;
+}
+.bounceA{
+    animation: bounceA 4s ease-in 0s infinite alternate;
+    filter: blur(4px);
+}
+.Reactlogo{
+    /* z-index: -1; */
+    position: relative;
+    width: 20vw;
+    border: 2px solid#00abf0;
+    border-radius: 50%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 50px#00abf0;
+    animation: rot 5s linear infinite;
+}
+.Reactlogo::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 2px solid#00abf0;
+    box-shadow: 0px 0px 60px#00abf0;
+    border-radius: 50%;
+    height: 100%;
+    transform: rotate(60deg);
+}
+.Reactlogo::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 2px solid #00abf0;
+    box-shadow: 0px 0px 60px#00abf0;
+    border-radius: 50%;
+    height: 100%;
+    transform: rotate(-60deg);
+}
+.circle{
+    background-color: #00abf0;
+    height: 8vh;
+    width: 4vw;
+    border-radius:50% ;
+    box-shadow: 0px 0px 60px#00abf0;
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateX(0px);
+        
+    }
+    100%{
+        transform:translateX(calc(90vw - 9vmin));
+    }
+    
+}
+@keyframes bounceA {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(calc(90vh - 9vmin));
+    }
+    
+}
+@keyframes rot {
+    0%{
+        transform: rotate(0deg) ;
+        
+    }
+    100%{
+        transform:rotate(360deg) ;
+        
+    }
+    
+}
+@media screen and (max-width: 915px
+){
+    .Reactlogo{
+        height: 30vh;
+        transform: rotate(90deg);
+    }
+    .circle{
+        height: 5vh;
+        width: 9vw;
+    }
+}

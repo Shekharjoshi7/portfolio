@@ -7,6 +7,7 @@ const About = () => {
   const Certificate = './IMG/CERTIFICATE.JPG'
   useEffect(() => {
     AOS.init({
+      duration: "500",
       delay: "500"
     });
   }, []);
