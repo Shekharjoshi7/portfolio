@@ -116,14 +116,14 @@
     }
     .Profile{
         width: 100%;
-        height: 80%;
+        height: 30vh;
     }
     .profile-photo{
-        height: 80%;
+        height: 100%;
         width: 100%;
     }
     .profile-photo img{
-        height: 45vh;
+        height: 50vh;
         width: auto;
         
     }
