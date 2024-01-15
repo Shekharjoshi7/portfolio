@@ -24,7 +24,7 @@
     position: absolute;
     top: 40%;
     left: 40%;
-    animation: position 2s ease-in-out 2s;
+    animation: position 2.2s ease-in-out 2s;
     animation-iteration-count: 1;  
 }
 @keyframes rotate {
@@ -73,6 +73,7 @@
     .React{
         transform: rotate(90deg);
         height: 30vh;
+        animation: rotate 4s linear 0.5s infinite;
     }
     @keyframes rotate {
         0%{

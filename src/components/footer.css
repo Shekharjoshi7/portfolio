@@ -1,12 +1,74 @@
 #footer{
     background-color: black;
     color: white;
-    
-
 }
-#footer p{
-    font-size: 1rem;
-    padding: 15px;
-    text-align: center;
-    height: 3vh;
+.FBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 25vh;
+}
+.SBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+}
+.Fitem{
+    height: 80%;
+    width: 30vw;
+}
+.Links{
+    margin: 15px 0;
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Link{
+    display: flex;
+    align-items: center;
+    width:6vw;
+    color: white;
+    text-decoration: none;
+}
+.Link:hover{
+    text-decoration: underline #00abf0;
+}
+.Link i{
+    margin-right: 5px;
+}
+.Top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 9vh;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+}
+.Top i{
+    font-size: 2.5rem;
+    color: #00abf0;
+}
+@media screen and (max-width : 915px) {
+    .FBox{
+        flex-direction: column;
+        height: 40vh;
+        
+    }
+    .SBox{
+        justify-content: space-between;
+       
+    }
+    .Fitem{
+        margin-top: 15px;
+        /* width: 40vw; */
+    }
+    .Top{
+        width: 18vw;
+        height: 10vh;
+    }
 }
