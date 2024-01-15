@@ -14,9 +14,9 @@ const Contact = () => {
     <section id='Contact'>
       <form action="https://formspree.io/f/xknlbaad" className="ContactBox" method="post">
         <h1 data-aos="fade-down">Contact</h1>
-        <input data-aos="fade-up" name='Name' type="Name" className='form' placeholder='Full Name' />
-        <input data-aos="fade-up" name='Email' type="Email" className='form' placeholder='Email' />
-        <textarea data-aos="fade-up" name="Message" className='form' placeholder='Message' id="" cols="30" rows="10"></textarea>
+        <input data-aos="fade-up" name='Name' type="Name" className='form' placeholder='Full Name' required/>
+        <input data-aos="fade-up" name='Email' type="Email" className='form' placeholder='Email' required/>
+        <textarea data-aos="fade-up" name="Message" className='form' placeholder='Message' id="" cols="30" rows="10" required></textarea>
         <div data-aos="fade-up" className="buttons">
           <button id='submit' className="btn btn-p">Submit</button>
         </div>

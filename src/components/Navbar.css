@@ -3,13 +3,10 @@
     top: 0;
     background-color:  #081b29;
     z-index: 1;
-
 }
 nav{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.5);
-    
-    
+    background-color: rgba(0, 0, 0, 0.5);  
 }
 .hum{
     position: relative;
@@ -17,8 +14,7 @@ nav{
     margin-left: 0;
     margin-top: 18px;
     margin-right: 15px;
-    display:none;
-    
+    display:none; 
 }
 
 .Navbar{
@@ -57,46 +53,41 @@ nav{
     font-size: 1.1rem;
     color: #00abf0;
 }
-
-
-        /* Reponsive */
-
+        /* Reponsive >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media screen and (max-width: 915px
-){  .Navbar{
+){  
+    .Navbar{
         flex-direction: column;
         width: 95vw;
         height: auto;
         opacity: 0.9;
-        
     }
+    
     .right{
         display: block;
         position: relative;
         left: -100%;
         height: 1vh;
         overflow:hidden;
-        /* visibility: hidden; */
-
     }
+
     .right.display{
         display: flex;
         height: 24vh;
         left: 0;
-        /* visibility: inherit; */
     }
   
     .right ul{
         width: 100%;
         flex-direction: column-reverse;
-        height: 24vh;
-        
+        height: 24vh; 
     }
+
     .right ul a{
         margin: 5px 0px;
         height: 20px;
-        
-
     }
+
     .hum{
         display:block;
         right: 0;
@@ -105,9 +96,5 @@ nav{
     .hum i{
        color: white;
        font-size: 1.5rem;
-    
-    }
-   
-
-    
+    }  
 }
