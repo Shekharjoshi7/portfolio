@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div className="Top">
           <a href="#Home">
-            <i class="fa-solid fa-arrow-up"></i>
+            <i className="fa-solid fa-arrow-up"></i>
           </a>
         </div>
       </div>
