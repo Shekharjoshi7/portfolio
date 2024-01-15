@@ -13,6 +13,25 @@ const Navbar = () => {
         delay: "500"
     });
       }, []);
+      const NavScroll = ()=>{
+        console.log(window.scrollY)
+          if (window.scrollY<=548) {
+            setNav('#')
+          }
+          else if (window.scrollY<=800) {
+            setNav('#About')
+          }
+          else if (window.scrollY<=1550) {
+            setNav('#Skills')
+          }
+          else if (window.scrollY<=2470) {
+            setNav('#Project')
+          }
+          else{
+            setNav('#Contact')
+          }
+        }
+        window.addEventListener('scroll', NavScroll)
     
 
   return (
