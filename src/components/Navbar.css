@@ -25,7 +25,6 @@ nav{
     height: 8vh;
     display: flex;
     justify-content: space-between;
-    color: white;
 }
 .left{
     margin: 15px;
@@ -50,7 +49,6 @@ nav{
 .right ul li a{
     display:inline-block;
     width: 5vw;
-    color: white;
     text-decoration: none;
 }
 .right ul li a:hover,.right ul li a.active{
@@ -71,7 +69,7 @@ nav{
         display: block;
         position: relative;
         left: -100%;
-        height: 1vh;
+        height: 0vh;
         overflow:hidden;
     }
 
@@ -98,7 +96,6 @@ nav{
     }
     
     .hum i{
-       color: white;
        font-size: 1.5rem;
     }  
 }
