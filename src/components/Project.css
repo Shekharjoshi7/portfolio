@@ -39,9 +39,11 @@
     width: 100%;
 }
 .cards .ImgBox img{
-    height: 28vh;
     border-radius: 30px;
-    transition: 0.3s ease;
+    height: 28vh;
+    aspect-ratio:4/2.5;
+    object-fit: cover;
+    transition: .3s ease;
 }
 .cards img:hover{
     transform: scale(1.1);

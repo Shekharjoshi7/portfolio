@@ -41,11 +41,11 @@ const Skills = () => {
         </div>
         <div className='PBox' data-aos="fade-right">
           <h5>React JS</h5>
-          <ProgressBar className="progess" animateOnRender={animation} transitionDuration='2s' bgColor='#00abf0' completed={70}> 70% </ProgressBar>
+          <ProgressBar className="progess" animateOnRender={animation} transitionDuration='2s' bgColor='#00abf0' completed={75}> 75% </ProgressBar>
         </div>
         <div className='PBox' data-aos="fade-left">
           <h5>Node Js</h5>
-          <ProgressBar className="progess" animateOnRender={animation} transitionDuration='2s' bgColor='#00abf0' completed={50}> 50% </ProgressBar>
+          <ProgressBar className="progess" animateOnRender={animation} transitionDuration='2s' bgColor='#00abf0' completed={60}> 60% </ProgressBar>
         </div>
         <div className='PBox' data-aos="fade-right">
           <h5 >Mongo DB</h5>
@@ -53,7 +53,7 @@ const Skills = () => {
         </div>
         <div className='PBox' data-aos="fade-left">
           <h5>Git & Git Hub</h5>
-          <ProgressBar className="progess" animateOnRender={animation} transitionDuration='2s' bgColor='#00abf0' completed={80}> 80% </ProgressBar>
+          <ProgressBar className="progess" animateOnRender={animation} transitionDuration='2s' bgColor='#00abf0' completed={85}> 85% </ProgressBar>
         </div>
       </div>
 
