@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import './Skills.css'
@@ -11,14 +11,26 @@ const Skills = () => {
       delay: "500"
     });
   }, []);
-  const animation = true;
+  let animation=true;
+  // let [animation, setanimation] = useState(false);
+  // const AnimationProgress=()=>{
+  //   console.log(window.scrollY)
+  //   if (window.scrollY>=0) {
+  //     setanimation(true);
+  //     console.log(animation)
+  //   }
+  //   else{
+  //     setanimation(false)
+  //   }
+  // }
+  // window.addEventListener('scroll', AnimationProgress)
 
   return (
     <section id='Skills'>
       <h1 data-aos="fade-down">Skills</h1>
 
       <div className="items">
-        <div className='PBox' data-aos="fade-right">
+        <div className='PBox'  data-aos="fade-right" >
           <h5>HTML  CSS   JAVASCRIPT</h5>
           <ProgressBar className="progess" animateOnRender={animation} transitionDuration='2s' bgColor='#00abf0' completed={90}> 90% </ProgressBar>
         </div>

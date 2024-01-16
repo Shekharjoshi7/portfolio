@@ -4,6 +4,7 @@
     align-items: top;
     height: 95vh;
     background-color:  rgb(8, 27, 41,0.1);
+    backdrop-filter: blur(8px);
     padding: 25px;
     overflow: hidden;
 }

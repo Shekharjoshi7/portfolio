@@ -1,5 +1,6 @@
 #Project{
     background-color:  rgb(8, 27, 41,0.2);
+    backdrop-filter: blur(8px);
     height: auto;
     padding: 25px 55px;
     padding-top: 55px;
@@ -26,6 +27,8 @@
     justify-content: space-between;
     align-items: center;
     border: 2px solid #112e42;
+    background-color: rgb(0,0,0,0.5);
+    backdrop-filter: blur(15px);
     border-radius: 50px;
     box-shadow: 0px 0px 18px#00abf0;
 }

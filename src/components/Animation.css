@@ -17,7 +17,6 @@
 }
 .bounceA{
     animation: bounceA 4s ease-in 0s infinite alternate;
-    filter: blur(4px);
 }
 .Reactlogo{
     /* z-index: -1; */

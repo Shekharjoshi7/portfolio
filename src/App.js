@@ -20,6 +20,9 @@ function App() {
     }
     fetchPageData();
   },[]);
+  // return(
+  //   <Skills/>
+  //   )
 
   return IsLoading ? (<Load/>):(
 

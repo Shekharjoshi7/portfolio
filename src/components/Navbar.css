@@ -1,16 +1,18 @@
 .NavbarContainer{
     position: sticky;
     top: 0;
-    background-color:  #081b29;
+    backdrop-filter: blur(8px);
+    background-color:  rgb(8, 27, 41,0.1);
     z-index: 1;
 }
 nav{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.5);  
+    background-color: #081b29;
 }
 .hum{
-    position: relative;
+    position: fixed;
     right: -8%;
+    top: 0;
     margin-left: 0;
     margin-top: 18px;
     margin-right: 15px;
@@ -18,6 +20,8 @@ nav{
 }
 
 .Navbar{
+    background-color: rgba(0, 0, 0,0.7);  
+    width: 100%;
     height: 8vh;
     display: flex;
     justify-content: space-between;
@@ -58,7 +62,7 @@ nav{
 ){  
     .Navbar{
         flex-direction: column;
-        width: 95vw;
+        width: 100%;
         height: auto;
         opacity: 0.9;
     }
