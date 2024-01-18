@@ -25,11 +25,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="Top">
-          <a href="#">
+        <a href="#">
+          <div className="Top">
             <i className="fa-solid fa-arrow-up"></i>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </div>
   )

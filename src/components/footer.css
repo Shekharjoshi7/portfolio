@@ -16,6 +16,9 @@
     height: 100%;
     width: 80%;
 }
+.FBox a{
+   text-decoration: none;
+}
 .Fitem{
     height: 80%;
     width: 30vw;
@@ -56,6 +59,7 @@
     .FBox{
         flex-direction: column;
         height: 40vh;
+        margin-bottom: 20px;
         
     }
     .SBox{
