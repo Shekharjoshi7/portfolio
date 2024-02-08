@@ -4,6 +4,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 .loader h1{
     color: #00abf0;
@@ -74,6 +75,10 @@
         width: 70vw;
         transform: rotate(90deg);
         animation: rotate 4s linear 0.5s infinite;
+    }
+    .position{
+        top: 40%;
+        left: 15%;
     }
     @keyframes rotate {
         0%{
