@@ -46,8 +46,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5vw;
     height: 9vh;
+    aspect-ratio: 2/2;
     border: 2px solid #00abf0;
     border-radius: 50%;
 }
@@ -68,10 +68,9 @@
     }
     .Fitem{
         margin-top: 15px;
-        /* width: 40vw; */
+        width: 35vw;
     }
     .Top{
-        width: 18vw;
         height: 10vh;
     }
 }
