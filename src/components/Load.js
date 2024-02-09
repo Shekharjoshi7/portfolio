@@ -1,5 +1,4 @@
 import React from 'react'
-import Typed from 'typed.js';
 import './Load.css'
 const Load = () => {
   // const el = React.useRef(null);

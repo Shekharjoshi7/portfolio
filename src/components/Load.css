@@ -1,8 +1,6 @@
 .loader{
     background-color: black;
-    top: 0;
-    left: 0;
-    width: 100vw;
+    width: 101%;
     height: 100vh;
     overflow-x: hidden;
 }
@@ -72,17 +70,17 @@
 @media screen and (max-width: 915px
 ){
     .React{
-        width: 70vw;
-        transform: rotate(90deg);
+        width: 60vw;
+        transform: rotate(0deg);
         animation: rotate 4s linear 0.5s infinite;
     }
     .position{
-        top: 40%;
-        left: 15%;
+        left: 20%;
     }
+    
     @keyframes rotate {
         0%{
-            transform: rotate(90deg);
+            transform: rotate(0deg);
             
         }
         100%{
