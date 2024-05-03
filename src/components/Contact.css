@@ -16,11 +16,13 @@
     text-align: center;
 }
 .form{
+
     height: 8vh;
     width: 63vw;
     margin: 2%;  
     padding: 15px;
     border: 2px solid #112e42;
+    color: black;
     border-radius: 50px;
     box-shadow: 0px 0px 18px#00abf0;
 }

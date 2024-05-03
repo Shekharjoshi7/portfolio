@@ -25,9 +25,14 @@ const Project = () => {
       src: "./IMG/TIC.JPG",
       Live: 'https://shekharjoshi7.github.io/tic-tac-toe/',
       Code: 'https://github.com/Shekharjoshi7/tic-tac-toe'
+    },
+    {
+      key: '4',
+      title: 'Portfolio-template',
+      src: "./IMG/PORTFOLIO.PNG",
+      Live: 'https://shekharjoshi7.github.io/Portfolio-template/',
+      Code: 'https://github.com/Shekharjoshi7/Portfolio-template'
     }
-   
-
   ];
   useEffect(() => {
     AOS.init({
