@@ -12,7 +12,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/shekhar__joshi/" className='Link'> <i className='fa-brands fa-instagram'></i>Instagram</a>
               <a href="https://www.facebook.com/shekhar.joshi.739326" className='Link'><i className='fa-brands fa-facebook'></i>Facebook</a>
               <a href="mailto:shekharjoshi813@gmail.com" className='Link'><i className='fa-solid fa-envelope'></i>Email</a>
-              <a href="" className='Link'><i className='fa-brands fa-twitter'></i>Twitter</a>
+              <a href="https://twitter.com/Shekhar_Joshi_" className='Link'><i className='fa-brands fa-twitter'></i>Twitter</a>
             </div>
           </div >
           <div className="Fitem">
@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <a href="#">
+        <a href="#Home">
           <div className="Top">
             <i className="fa-solid fa-arrow-up"></i>
           </div>

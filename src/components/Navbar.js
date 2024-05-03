@@ -17,13 +17,13 @@ const Navbar = () => {
     if (window.scrollY <= 548) {
       setNav('#')
     }
-    else if (window.scrollY <= 800) {
+    else if (window.scrollY <= 2000) {
       setNav('#About')
     }
-    else if (window.scrollY <= 1550) {
+    else if (window.scrollY <= 2800) {
       setNav('#Skills')
     }
-    else if (window.scrollY <= 2470) {
+    else if (window.scrollY <= 3670) {
       setNav('#Project')
     }
     else {

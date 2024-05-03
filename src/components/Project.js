@@ -48,7 +48,7 @@ const Project = () => {
           return (
             <div  data-aos="fade-right" key={key} className="cards">
               <div className="ImgBox">
-              <img src={src} alt="website Image" />
+              <img src={src} alt="website" />
               </div>
               <h3 className='m5'>{title}</h3>
               <div className="CardBtn">

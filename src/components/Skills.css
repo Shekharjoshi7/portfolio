@@ -41,10 +41,10 @@
 ){
     
     .items{
-        grid-template-columns: 90vw;
+        grid-template-columns: 80vw;
         grid-template-rows: 15vh 15vh 15vh 15vh 15vh auto;
     }
     .progess{
-        width: 90vw;
+        width: 80vw;
     }
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import './Skills.css'
@@ -12,19 +12,6 @@ const Skills = () => {
     });
   }, []);
   let animation=true;
-  // let [animation, setanimation] = useState(false);
-  // const AnimationProgress=()=>{
-  //   console.log(window.scrollY)
-  //   if (window.scrollY>=0) {
-  //     setanimation(true);
-  //     console.log(animation)
-  //   }
-  //   else{
-  //     setanimation(false)
-  //   }
-  // }
-  // window.addEventListener('scroll', AnimationProgress)
-
   return (
     <section id='Skills'>
       <h1 data-aos="fade-down">Skills</h1>
@@ -41,7 +28,7 @@ const Skills = () => {
         </div>
         <div className='PBox' data-aos="fade-right">
           <h5>React JS</h5>
-          <ProgressBar className="progess" animateOnRender={animation} transitionDuration='2s' bgColor='#00abf0' completed={75}> 75% </ProgressBar>
+          <ProgressBar className="progess" animateOnRender={animation} transitionDuration='2s' bgColor='#00abf0' completed={85}> 85% </ProgressBar>
         </div>
         <div className='PBox' data-aos="fade-left">
           <h5>Node Js</h5>
