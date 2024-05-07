@@ -39,7 +39,7 @@ const Navbar = () => {
 
         <div className='Navbar'  >
           <div className="left">
-            <h1>Portfilo</h1>
+            <h1>Portfolio</h1>
           </div>
           <div className={model ? 'right display' : 'right'}>
             <ul>
