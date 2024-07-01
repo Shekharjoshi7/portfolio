@@ -82,44 +82,45 @@ hr {
 
 .About2 {
     width: 75vw;
-    display: flex;
-    justify-content: center;
+
+}
+.About2 h2{
+    font-size: 2rem;
 }
 
 .boxes {
     margin: 35px 15px;
     padding: 25px;
-    width: 35vw;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.invert{
+    flex-direction: row-reverse;
 }
 
-.School {
-    margin: 55px 0px;
-}
 
-.School span {
+
+.boxes span {
     color: grey;
+}
+.desc{
+    width: 50%;
+}
+.certificate {
+    overflow: hidden;
+    width: 30vw;
 }
 
 .certificate img{
-    margin-top: 52px;
     width: 30vw;
-    
+    transition: .3s ease;
+}
+.certificate img:hover{
+    transform: scale(1.1);
 }
 
-.IntBox {
-    display: flex;
-    width: 18vw;
-    justify-content: space-between;
-}
-
-.Interest {
-    padding: 15px 0px;
-    border-radius: 10px;
-    background-color: rgb(112, 112, 112, 0.5);
-    width: 8vw;
-    margin: 5px 0px;
-    text-align: center;
-}
 
 @media screen and (max-width : 915px) {
     #About{
@@ -167,29 +168,27 @@ hr {
         width: 90vw;
         flex-direction: column;
     }
+    .About2 h2{
+       font-size: 1.5rem;
+    }
     .boxes {
         margin: 15px 0px;
         padding: 0px 10px;
         width: 90vw;
-    }
-    .School {
-        margin: 25px 0px;
-    }
-    .School h3{
-        font-size: 1rem;
-    }
-    .IntBox{
-        width: 55vw;
+        flex-direction: column;
     }
 
-    .Interest {
-        padding: 10px 0px;
-        border-radius: 10px;
-        background-color: rgb(112, 112, 112, 0.5);
-        width: 25vw;
-        margin: 5px 0px;
-        text-align: center;
-        font-size: 0.7rem;
+    .boxes h3{
+        font-size: 1rem;
+    }
+    
+    .desc{
+        width: 85vw;
+        
+    }
+    .certificate {
+        width: 85vw;
+        
     }
     .certificate img{
         margin-top: 52px;

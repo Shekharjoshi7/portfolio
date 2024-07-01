@@ -5,6 +5,8 @@ import 'aos/dist/aos.css'
 
 const About = () => {
     const Certificate = './IMG/CERTIFICATE.JPG'
+    const JavaScript = './IMG/JAVASCRIPT.PNG'
+    const ReactCertificate= './IMG/REACT.PNG'
     useEffect(() => {
         AOS.init({
             duration: "500",
@@ -41,7 +43,7 @@ const About = () => {
                                     <h3>Mail :- </h3><span className="text">shekharjoshi813@gmail.com</span>
                                 </div>
                                 <hr />
-                              
+
 
                             </div>
                             <div className="item">
@@ -58,84 +60,68 @@ const About = () => {
                                     <h3>Degree :- </h3><span className="text"> B.C.A. </span>
                                 </div>
                                 <hr />
-                               
+
 
                             </div>
-                            
+
 
                         </div>
                         <div className="About2">
+                            <h2> Certificate</h2>
                             <div className="boxes">
-                                <h2 className="">High School</h2>
-                                <div>
+                                <div className="desc">
 
-                                    <div className="School">
-                                        <span>
-                                            2019-2020
-                                        </span>
-                                        <h3>
-                                        Guru Nanak Public Senior Secondary School, Udaipur
-                                        </h3>
-                                        <span>
-                                        Percent 76.83
-                                        </span>
-                                    </div>
-                                    <div className="School">
-                                        <span>
-                                            2021-2022
-                                        </span>
-                                        <h3>
-                                        Guru Nanak Public Senior Secondary School, Udaipur
-                                        </h3>
-                                        <span>
-                                            Percent 78.60
-                                        </span>
-                                    </div>
-                                </div>
-                                <h2 className="">Graduation</h2>
-                                
-                                <div className="School">
                                     <span>
-                                        2022-Present
+                                        07/2022 - 08/2022
                                     </span>
                                     <h3>
-                                        Mohanlal Sukhadia University, Udaipur
+                                        Internshala , Web Development Training
                                     </h3>
-                                    <span>
-                                        SGPA 8.69
-                                    </span>
+
+                                    <p className="para">
+                                        Successfully completed a 8 weeks online certified training on Web Development. The training consisted of HTML, CSS,Bootstrap, DBMS, PHP, JS, React, and Final Project modules. I scored 100% in the final assessment and was a top performerin the training.
+                                    </p>
                                 </div>
-                                    <h2 className=""> Interests</h2>
-                                <div className=" IntBox">
-                                    <span className="Interest">
-                                        Gaming
-                                    </span>
-                                    <span className="Interest">
-                                        Volleyball
-                                    </span>
+                                <div className='certificate'>
+                                    <img src={Certificate} alt="Certificate" />
                                 </div>
                             </div>
+                            <div className="boxes invert">
 
-                            <div className="boxes">
-                                <h2 className=""> Certificate</h2>
-                                <div>
-                                    <div className="School certificate">
-                                        <span>
-                                            07/2022 - 08/2022
-                                        </span>
-                                        <h3>
-                                           Internshala , Web Development Training
-                                        </h3>
+                                <div className="desc">
 
-                                        <p className="para">
-                                           Successfully completed a 8 weeks online certified training on Web Development. The training consisted of HTML, CSS,Bootstrap, DBMS, PHP, JS, React, and Final Project modules. I scored 100% in the final assessment and was a top performerin the training.
-                                        </p>
-                                        <img src={Certificate} alt="Certificate" />
-                                    </div>
+                                    <span>
+                                        06/2024 - 07/2024
+                                    </span>
+                                    <h3>
+                                        Great Learning , React.JS
+                                    </h3>
 
+                                    <p className="para">
+                                        Successfully completed a  online certified training on React JS. The training consisted of JSX , React , Components Hooks , Lifecycle methods , React elements , State and props , Conditional rendering ,Context. I scored 100% in the final assessment.
+                                    </p>
                                 </div>
-                                
+                                <div className='certificate'>
+                                    <img src={ReactCertificate} alt="Certificate" />
+                                </div>
+                            </div>
+                            <div className="boxes ">
+                                <div className="desc">
 
+                                    <span>
+                                        06/2024 - 07/2024
+                                    </span>
+                                    <h3>
+                                        HackerRank , JavaScript(Basic)
+                                    </h3>
+
+                                    <p className="para">
+                                    This certificate is awarded to Shekhar Joshi for successfully completing the JavaScript Test on HackerRank. The test assessed proficiency in JavaScript programming through a series of challenging problems that required a deep understanding of the language's core concepts
+                                    </p>
+                                </div>
+                                <div className='certificate'>
+                                    <img src={JavaScript} alt="Certificate" />
+                                </div>
                             </div>
                         </div>
 
