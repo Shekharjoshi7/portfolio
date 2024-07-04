@@ -99,9 +99,6 @@ hr {
 .invert{
     flex-direction: row-reverse;
 }
-
-
-
 .boxes span {
     color: grey;
 }
@@ -187,13 +184,11 @@ hr {
         
     }
     .certificate {
-        width: 85vw;
-        
+        margin-top: 52px;
+        width: 85vw;   
     }
     .certificate img{
-        margin-top: 52px;
-        width: 85vw;
-        
+        width: 85vw;  
     }
     
 }
